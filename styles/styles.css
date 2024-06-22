@@ -1,0 +1,355 @@
+._customer_header {
+  border-radius: 10px;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  column-gap: 2rem;
+  padding: 2rem;
+}
+
+._customer_usligi {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+._customer_columns {
+  display: flex;
+  gap: 4rem;
+  padding: 2rem 0;
+}
+._customer_columns__column {
+  display: flex;
+  gap: 2rem;
+}
+
+._customer_columns__column__icon {
+  border-radius: 10px;
+  background-image: -moz-linear-gradient(
+    30deg,
+    rgb(0, 203, 254) 0%,
+    rgb(0, 76, 179) 100%
+  );
+  background-image: -webkit-linear-gradient(
+    30deg,
+    rgb(0, 203, 254) 0%,
+    rgb(0, 76, 179) 100%
+  );
+  background-image: -ms-linear-gradient(
+    30deg,
+    rgb(0, 203, 254) 0%,
+    rgb(0, 76, 179) 100%
+  );
+  width: 8rem;
+  height: 8rem;
+  padding: 1.5rem;
+}
+
+._customer_columns__column__icon img {
+  width: 44px;
+  height: 44px;
+}
+
+._customer_columns__column__title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+._customer_order {
+  background: no-repeat url("../images/orderbg.png");
+  background-size: cover;
+  padding: 4rem;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0px 11px 54px 0px rgba(60, 60, 60, 0.41);
+}
+
+._customer_order__title {
+  font-size: 2.6rem;
+  font-weight: 600;
+  width: 50%;
+  margin-bottom: 2rem;
+}
+
+._customer_order__text {
+  color: rgb(167, 167, 167);
+  margin-bottom: 2rem;
+}
+
+._customer_order__btns {
+  display: flex;
+  gap: 1rem;
+}
+
+._customer_order__btn {
+  background-color: rgb(255, 138, 0);
+  border: none;
+  border-radius: 20px;
+  color: #ffffff;
+  font-weight: 100;
+  padding: 1.5rem;
+}
+
+._customer_order__btn-call {
+  border-width: 2px;
+  border-color: rgb(255, 138, 0);
+  border-style: solid;
+  border-radius: 20px;
+  padding: 1.2rem 2rem;
+  font-weight: 100;
+}
+
+._customer_order__img {
+  position: absolute;
+  right: 4rem;
+  top: -3rem;
+}
+
+._customer_order__img img {
+  width: 35rem;
+  height: 35rem;
+}
+
+._customer_price {
+  padding-top: 4rem;
+}
+
+._customer_price__cards {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+._customer_card {
+  display: flex;
+  flex-direction: column;
+}
+
+._customer_card:hover {
+  cursor: pointer;
+  scale: 120%;
+  padding: 1rem 1rem 2rem 1rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  z-index: 1000;
+  background-color: #ffff;
+}
+
+._customer_card:hover ._customer_card__btn {
+  display: block;
+  background-color: rgb(255, 138, 0);
+  border: none;
+  color: #ffffff;
+  border-radius: 20px;
+  font-weight: 100;
+  padding: 1rem 0;
+}
+
+._customer_card__title {
+  font-weight: 600;
+}
+
+._customer_card__description {
+  font-size: 1.4rem;
+  color: rgb(167, 167, 167);
+}
+
+._customer_card__btn {
+  display: none;
+  margin: 2rem;
+}
+
+._customer_card__info {
+  display: flex;
+  column-gap: 1rem;
+  font-size: 1.4rem;
+}
+
+._customer_card__info__price {
+  border-radius: 3px;
+  background-color: rgb(0, 100, 193);
+  height: 3rem;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+}
+
+._customer_card__info__size {
+  border-width: 1px;
+  border-color: rgb(167, 167, 167);
+  border-style: solid;
+  border-radius: 3px;
+  color: rgb(167, 167, 167);
+  padding: 0.5rem;
+}
+
+._customer_advantages {
+  padding: 4rem 0rem;
+}
+
+._customer_advantages__numbers {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 4rem;
+  text-align: center;
+}
+
+._customer_advantages__numbers__number {
+  font-size: 10.4rem;
+  color: #73c6fd;
+}
+
+._customer_advantages__numbers__number p {
+  text-shadow: 5px -3px 5px #138bdb;
+}
+
+._customer_num-1 {
+  background: no-repeat url("../images/adv_bg1.png") center;
+}
+
+._customer_num-2 {
+  background: no-repeat url("../images/adv_bg2.png") center;
+}
+
+._customer_num-3 {
+  background: no-repeat url("../images/adv_bg3.png") center;
+}
+
+._customer_advantages__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+._customer_advantages__cards__card {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+._customer_advantages__cards__card__img {
+  border-radius: 10px;
+  background-color: rgb(242, 242, 242);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+._customer_advantages__cards__card__img img {
+  width: 40px;
+  height: 40px;
+}
+
+._customer_reviews {
+  padding: 4rem 0rem;
+}
+
+._customer_reviews__cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 4rem 0rem;
+  align-items: center;
+}
+
+._customer_reviews__card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+._customer_reviews__card img {
+  width: 11rem;
+  height: 11rem;
+  margin-bottom: 2rem;
+}
+
+._customer_reviews__card__info {
+  padding: 2rem;
+}
+
+._customer_reviews__card__info__title {
+  font-weight: 600;
+}
+
+._customer_bg-1 {
+  background: url(../images/review_bg1.png) no-repeat left bottom;
+  background-size: cover;
+}
+
+._customer_bg-2 {
+  background: url(../images/review_bg2.png) no-repeat left bottom;
+  background-size: cover;
+}
+
+._customer_bg-3 {
+  background: url(../images/review_bg3.png) no-repeat left bottom;
+  background-size: cover;
+}
+
+._customer_clients {
+  padding: 4rem 0;
+}
+
+._customer_clients__logos {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+@media (max-width: 1050px) {
+  ._customer_order__img {
+    display: none;
+  }
+
+  ._customer_order__title {
+    width: 100%;
+  }
+}
+
+@media (max-width: 675px) {
+  ._customer_advantages__cards {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .arrow-left {
+    display: none;
+  }
+  .arrow-right {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  body {
+    padding: 1rem;
+  }
+
+  ._customer_columns {
+    flex-direction: column;
+  }
+
+  ._customer_price__cards {
+    justify-content: center;
+  }
+
+  ._customer_advantages__numbers {
+    justify-content: center;
+  }
+
+  ._customer_reviews__cards {
+    flex-direction: column;
+  }
+
+  ._customer_clients__logos {
+    gap: 2rem;
+    justify-content: center;
+  }
+}
